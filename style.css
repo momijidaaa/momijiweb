@@ -1,0 +1,100 @@
+/* ===== 基本設定 ===== */
+body {
+margin: 0;
+font-family: "Segoe UI", Arial, sans-serif;
+background: #fffaf5;
+color: #333;
+}
+
+/* ===== ヘッダー ===== */
+header {
+background: linear-gradient(135deg, #ff8c42, #ff6b00);
+color: white;
+text-align: center;
+padding: 2rem 1rem;
+}
+
+header h1 {
+margin: 0;
+font-size: 2rem;
+}
+
+header p {
+margin-top: 0.5rem;
+font-size: 1rem;
+opacity: 0.9;
+}
+
+/* ===== ナビゲーション ===== */
+nav {
+background: #ff6b00;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 0.5rem;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 5px 10px;
+padding: 8px 14px;
+border-radius: 20px;
+transition: 0.3s;
+font-size: 0.9rem;
+}
+
+/* ホバー効果 */
+nav a:hover {
+background: white;
+color: #ff6b00;
+}
+
+/* ===== メイン（後で追加用） ===== */
+main {
+padding: 20px;
+}
+
+/* ===== フッター ===== */
+footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 1rem;
+margin-top: 40px;
+}
+
+/* ===== ボタン風（将来用） ===== */
+.button {
+display: inline-block;
+background: #ff6b00;
+color: white;
+padding: 10px 16px;
+border-radius: 25px;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.button:hover {
+background: #ff8c42;
+}
+
+/* ===== スマホ対応 ===== */
+@media (max-width: 600px) {
+header h1 {
+font-size: 1.5rem;
+}
+
+nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    width: 80%;
+    text-align: center;
+}
+
+
+}
