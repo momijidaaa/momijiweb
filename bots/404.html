@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found | Momiji Website</title>
+
+    <!-- 検索に出さない -->
+    <meta name="robots" content="noindex, follow">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #fffaf5;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff8c42, #ff6b00);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        main {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .code {
+            font-size: 6rem;
+            color: #ff6b00;
+            margin: 0;
+        }
+
+        .message {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .desc {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #ff6b00;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #ff8c42;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 1rem;
+            text-align: center;
+            background: #333;
+            color: white;
+        }
+
+        /* スマホ対応 */
+        @media (max-width: 600px) {
+            .code {
+                font-size: 4rem;
+            }
+
+            .message {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Momiji Website</h1>
+</header>
+
+<main>
+    <h2 class="code">404</h2>
+    <p class="message">ページが見つかりません</p>
+    <p class="desc">URLが間違っているか、ページが削除されています。</p>
+
+    <a href="index.html" class="button">ホームへ戻る</a>
+</main>
+
+<footer>
+    <p>&copy; 2026 Momiji Website</p>
+</footer>
+
+</body>
+
+</html>
